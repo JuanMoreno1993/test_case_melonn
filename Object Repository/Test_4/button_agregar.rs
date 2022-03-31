@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_agregar</name>
+   <tag></tag>
+   <elementGuidId>3247b94b-0ffa-4251-9a85-0b7bc58e99b4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='P00026064'])[1]/following::span[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>jss1578</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Agregar</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;MuiDialog-root-388&quot;]/div[@class=&quot;MuiDialog-container-391 MuiDialog-scrollPaper-389&quot;]/div[@class=&quot;MuiPaper-root-183 MuiDialog-paper-392 MuiDialog-paperScrollPaper-393 MuiDialog-paperWidthLg-399 MuiDialog-paperFullWidth-401 MuiPaper-elevation24-210 MuiPaper-rounded-184&quot;]/div[@class=&quot;MuiDialogContent-root-1513&quot;]/div[@class=&quot;MuiPaper-root-183 MuiPaper-elevation1-187 MuiPaper-rounded-184&quot;]/div[@class=&quot;MuiTableContainer-root-1455&quot;]/table[@class=&quot;MuiTable-root-1456&quot;]/tbody[@class=&quot;MuiTableBody-root-1475&quot;]/tr[@class=&quot;MuiTableRow-root-1459 jss1571&quot;]/td[@class=&quot;MuiTableCell-root-1463 MuiTableCell-body-1465 MuiTableCell-alignCenter-1471 MuiTableCell-sizeSmall-1467&quot;]/button[@class=&quot;MuiButtonBase-root-234 MuiButton-root-1383 MuiButton-text-1385 jss1577 MuiButton-textPrimary-1386 MuiButton-textSizeSmall-1396 MuiButton-sizeSmall-1402&quot;]/span[@class=&quot;MuiButton-label-1384&quot;]/span[@class=&quot;jss1578&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='P00026064'])[1]/following::span[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mouse Logitech G502'])[2]/following::span[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Diadema HyperX'])[1]/preceding::span[4]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Diadema HyperX'])[2]/preceding::span[4]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[4]/td[8]/button/span/span</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Agregar' or . = 'Agregar')]</value>
+   </webElementXpaths>
+</WebElementEntity>

@@ -21,7 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl('http://melonn-admin-portal-dev.s3-website-us-east-1.amazonaws.com/')
+WebUI.navigateToUrl('https://admin-dev.melonn.com')
 
 WebUI.delay(1)
 
@@ -45,11 +45,11 @@ WebUI.delay(1)
 
 WebUI.click(findTestObject('Test_1/button_enter'))
 
-WebUI.delay(1)
+WebUI.delay(3)
 
-WebUI.click(findTestObject('Test_1/button_refresh'))
+WebUI.click(findTestObject('Test_4/button_refresh'))
 
-WebUI.delay(1)
+WebUI.delay(3)
 
 WebUI.setText(findTestObject('Test_1/select_seller'), 'Seller Juan QA')
 
@@ -89,7 +89,7 @@ WebUI.click(findTestObject('Test_1/button_next'))
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Test_2/button_agregar_productos'))
+WebUI.click(findTestObject('Test_4/button_agregar_productos'))
 
 WebUI.delay(1)
 
@@ -103,7 +103,7 @@ WebUI.delay(1)
 
 WebUI.takeScreenshot('C:\\Users\\JUANCHO\\Katalon Studio\\proyecto_uno\\Data Files\\Screenshots_Test_4\\imagen4.png')
 
-WebUI.click(findTestObject('Test_2/button_siguiente'))
+WebUI.click(findTestObject('Test_4/button_siguiente'))
 
 WebUI.delay(1)
 
@@ -115,9 +115,53 @@ WebUI.takeScreenshot('C:\\Users\\JUANCHO\\Katalon Studio\\proyecto_uno\\Data Fil
 
 WebUI.click(findTestObject('Test_3/button_next'))
 
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Test_4/button_dispatch'))
+
 WebUI.delay(1)
 
 WebUI.takeScreenshot('C:\\Users\\JUANCHO\\Katalon Studio\\proyecto_uno\\Data Files\\Screenshots_Test_4\\imagen6.png')
+
+WebUI.click(findTestObject('Test_4/button_next_dispatch'))
+
+WebUI.delay(2)
+
+WebUI.setText(findTestObject('Test_4/direction_L1'), 'Calle 62A sur # 70 34')
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Test_4/clic_region'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Test_4/clic_ciudad_bogota'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Test_4/shipping_city'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Test_4/click_city_bogota'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Test_4/button_next_info'))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Test_4/metod_delivery'))
+
+WebUI.click(findTestObject('Test_4/clic_finish'))
+
+WebUI.delay(6)
+
+WebUI.verifyElementText(findTestObject('Test_4/verify_text'), 'Orden creada exitosamente')
+
+WebUI.delay(4)
+
+WebUI.getText(findTestObject(null))
 
 WebUI.closeBrowser()
 

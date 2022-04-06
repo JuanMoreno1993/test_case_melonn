@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_refresh</name>
+   <name>button_next_info</name>
    <tag></tag>
-   <elementGuidId>7f328de3-bb17-4347-9548-75920b1e5db6</elementGuidId>
+   <elementGuidId>a97988ad-b32c-4feb-9f30-8b84a4414285</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//span[@class='MuiButton-label'][contains(.,'Refrescar')]</value>
+         <value>//span[contains(.,'Siguiente')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

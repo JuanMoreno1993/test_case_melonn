@@ -6,12 +6,12 @@
    <elementGuidId>853a6648-42fa-4ec4-9577-d387831dc4cc</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;root&quot;]/div/div/div/div/main/div[2]/div[1]/header/div/div/div/div[2]/div/div[4]/button/span[1]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>button.MuiButtonBase-root-234.MuiButton-root-1383.MuiButton-contained-1391.jss1368.MuiButton-containedPrimary-1392.MuiButton-containedSizeSmall-1400.MuiButton-sizeSmall-1402 > span.MuiButton-label-1384</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[contains(.,'Siguiente')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

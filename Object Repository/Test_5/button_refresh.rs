@@ -10,9 +10,15 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[3]/div[3]/div/div[3]/button/span[1]</value>
+         <value>//span[@class='MuiButton-label'][contains(.,'Refrescar')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value></value>
+   </webElementXpaths>
 </WebElementEntity>

@@ -6,12 +6,12 @@
    <elementGuidId>f7fee3e3-e6a7-410d-b7fa-f772e8ba4413</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='root']/div/div/div/div/main/div[2]/div/div[2]/div/div/div/div[2]/button/span</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>span.MuiButton-label-1384</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[contains(.,'Agregar productos')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

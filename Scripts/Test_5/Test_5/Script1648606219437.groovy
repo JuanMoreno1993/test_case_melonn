@@ -21,7 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl('http://melonn-admin-portal-dev.s3-website-us-east-1.amazonaws.com/')
+WebUI.navigateToUrl('https://admin-dev.melonn.com')
 
 WebUI.delay(1)
 
@@ -47,7 +47,7 @@ WebUI.click(findTestObject('Test_1/button_enter'))
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Test_1/button_refresh'))
+WebUI.click(findTestObject('Test_4/button_refresh'))
 
 WebUI.delay(1)
 
@@ -63,9 +63,9 @@ WebUI.click(findTestObject('Test_1/button_enter'))
 
 WebUI.takeScreenshot('C:\\Users\\JUANCHO\\Katalon Studio\\proyecto_uno\\Data Files\\Screenshots_Test_5\\imagen2.png')
 
-WebUI.delay(1)
+WebUI.delay(3)
 
-WebUI.click(findTestObject('Test_1/click_ventas'))
+WebUI.click(findTestObject('Test_4/click_ventas'))
 
 WebUI.delay(1)
 

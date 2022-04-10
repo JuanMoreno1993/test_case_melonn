@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_refresh</name>
+   <name>metod_delivery</name>
    <tag></tag>
-   <elementGuidId>7f328de3-bb17-4347-9548-75920b1e5db6</elementGuidId>
+   <elementGuidId>f4e6f6fc-3d80-4a03-aea9-137f155c583e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//span[@class='MuiButton-label'][contains(.,'Refrescar')]</value>
+         <value>//*[@id=&quot;main-content&quot;]/div[1]/div[2]/div/div[2]/div/div/div[2]/div/div[2]/div/div[1]/div/div[2]/div/div[1]/p/button/span[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

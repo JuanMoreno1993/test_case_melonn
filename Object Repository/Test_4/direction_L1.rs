@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_refresh</name>
+   <name>direction_L1</name>
    <tag></tag>
-   <elementGuidId>7f328de3-bb17-4347-9548-75920b1e5db6</elementGuidId>
+   <elementGuidId>16139fab-d3f9-4cb2-b0e1-a509198519d8</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//span[@class='MuiButton-label'][contains(.,'Refrescar')]</value>
+         <value>//input[@id='shipping_address_l1']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
